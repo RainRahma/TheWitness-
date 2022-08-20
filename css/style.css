@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+li, a, button{
+    font-family: "Monserat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f1;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(6, 33, 94, 0.7);
+    height: 18px;
+}
+.logo{
+    font-size: 34px;
+    letter-spacing: 8.2px;
+    cursor:pointer;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.logo span{
+    color:chocolate;
+    font-size: 58px;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a:hover{
+    color:rgb(0,169, 207, 216);
+    font-size: 20px;
+}
+.nav-links li a:active{
+    border-left:chocolate;
+}
+button{
+    padding: 9px 25px;
+    color: #edf0f1;
+    border:none;
+    border-radius: 50px;
+    background-color: rgba(0,136,169,1);
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+.socials{
+    color:white;
+    margin: 4px;
+}
+.socials .twitter{
+    color:blue;
+    padding: 0px 16px;
+}
+.socials .facebook{
+    color:blue;
+    padding: 0px 16px;
+}
+.socials .youtube{
+    color: red;
+    padding: 0px 16px
+}
+.news-carousel{
+    margin: 8px;
+}
+.news-carousel img{
+    max-width: 100%;
+    height: 40vh;
+}
